@@ -14,6 +14,7 @@
 		861EB69B2004AF7A0002CD7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861EB6992004AF7A0002CD7B /* LaunchScreen.storyboard */; };
 		861EB6A62004AF7A0002CD7B /* eVolumeBarSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EB6A52004AF7A0002CD7B /* eVolumeBarSampleTests.swift */; };
 		861EB6B12004AF7A0002CD7B /* eVolumeBarSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EB6B02004AF7A0002CD7B /* eVolumeBarSampleUITests.swift */; };
+		861EB6BF2004AFAF0002CD7B /* eVolumeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EB6BE2004AFAF0002CD7B /* eVolumeBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		861EB6AC2004AF7A0002CD7B /* eVolumeBarSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eVolumeBarSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861EB6B02004AF7A0002CD7B /* eVolumeBarSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eVolumeBarSampleUITests.swift; sourceTree = "<group>"; };
 		861EB6B22004AF7A0002CD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861EB6BE2004AFAF0002CD7B /* eVolumeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = eVolumeBar.swift; path = eVolumeBarSample/eVolumeBar.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				861EB6902004AF7A0002CD7B /* AppDelegate.swift */,
 				861EB6922004AF7A0002CD7B /* ViewController.swift */,
+				861EB6BE2004AFAF0002CD7B /* eVolumeBar.swift */,
 				861EB6942004AF7A0002CD7B /* Main.storyboard */,
 				861EB6972004AF7A0002CD7B /* Assets.xcassets */,
 				861EB6992004AF7A0002CD7B /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861EB6BF2004AFAF0002CD7B /* eVolumeBar.swift in Sources */,
 				861EB6932004AF7A0002CD7B /* ViewController.swift in Sources */,
 				861EB6912004AF7A0002CD7B /* AppDelegate.swift in Sources */,
 			);
@@ -427,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86QLR2USUV;
+				DEVELOPMENT_TEAM = 72FC7F34T6;
 				INFOPLIST_FILE = eVolumeBarSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Eyad.eVolumeBarSample;
@@ -442,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86QLR2USUV;
+				DEVELOPMENT_TEAM = 72FC7F34T6;
 				INFOPLIST_FILE = eVolumeBarSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Eyad.eVolumeBarSample;
