@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,18 +15,16 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="eVolumeBarSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="RF9-S8-CqR">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="A0w-5a-IDa">
-                                <rect key="frame" x="16" y="457" width="343" height="194"/>
+                                <rect key="frame" x="16" y="528" width="343" height="234"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcb-tB-FPP">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="38"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                                         <state key="normal" title="Enable Default">
                                             <color key="titleColor" red="0.66215894670050757" green="0.23130007881638273" blue="0.45258708037038836" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -35,8 +33,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUE-A7-dFr">
-                                        <rect key="frame" x="0.0" y="41" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="49" width="343" height="38"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                                         <state key="normal" title="Enable Default With Custom Icon Color">
                                             <color key="titleColor" red="0.66215894670050757" green="0.23130007881638273" blue="0.45258708037038836" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -45,8 +44,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOG-Ph-ien">
-                                        <rect key="frame" x="0.0" y="82" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="98" width="343" height="38"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                                         <state key="normal" title="Enable Default With Tint">
                                             <color key="titleColor" red="0.66215894669999997" green="0.2313000788" blue="0.45258708040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -55,8 +55,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeS-zs-j3G">
-                                        <rect key="frame" x="0.0" y="123" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="147" width="343" height="38"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                                         <state key="normal" title="Enable With A Custom Image">
                                             <color key="titleColor" red="0.66215894670050757" green="0.23130007881638273" blue="0.45258708037038836" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -65,8 +66,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vQ-p1-QCm">
-                                        <rect key="frame" x="0.0" y="164" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="196" width="343" height="38"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
                                         <state key="normal" title="Enable With Custom Images For Volumes">
                                             <color key="titleColor" red="0.66215894670050757" green="0.23130007881638273" blue="0.45258708037038836" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -89,14 +91,10 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.20392156859999999" green="0.25098039220000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A0w-5a-IDa" secondAttribute="bottom" constant="16" id="4eN-3V-COA"/>
-                            <constraint firstItem="RF9-S8-CqR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cot-ZI-rUJ"/>
-                            <constraint firstItem="RF9-S8-CqR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Cuf-5t-kAW"/>
-                            <constraint firstItem="RF9-S8-CqR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GUY-Sq-WmY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A0w-5a-IDa" secondAttribute="trailing" constant="16" id="V8p-CG-uO5"/>
-                            <constraint firstItem="RF9-S8-CqR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YhM-mn-Bpl"/>
                             <constraint firstItem="A0w-5a-IDa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="byI-Qy-Dkz"/>
                             <constraint firstItem="A0w-5a-IDa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lOX-MB-MWJ"/>
                         </constraints>
@@ -105,10 +103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+            <point key="canvasLocation" x="117.59999999999999" y="116.74876847290641"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="background" width="360" height="640"/>
-    </resources>
 </document>
