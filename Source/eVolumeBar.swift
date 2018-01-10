@@ -235,8 +235,8 @@ open class eVolumeBar: UIView {
     private var currentVolume = Float(0)
     private var currentImageName: String!
     private var imagesNames: Array<String>!
-    private let kMinVolume = 0.00001
-    private let kMaxVolume = 0.99999
+    private let eMinVolume = 0.00001
+    private let eMaxVolume = 0.99999
     private var volumeLevels: Array<Float>!
     private var iconColor = UIColor.white {
         didSet {
@@ -369,12 +369,12 @@ open class eVolumeBar: UIView {
             return
         }
 
-        if (slider.value == Float(kMinVolume) || slider.value == 0.0) {
-            slider.value = Float(kMinVolume)
+        if (slider.value == Float(eMinVolume) || slider.value == 0.0) {
+            slider.value = Float(eMinVolume)
             currentVolume = 0.0
             updateVolume(0, animated: true)
-        } else if (slider.value == Float(kMaxVolume) || slider.value == 1.0) {
-            slider.value = Float(kMaxVolume)
+        } else if (slider.value == Float(eMaxVolume) || slider.value == 1.0) {
+            slider.value = Float(eMaxVolume)
             currentVolume = 1.0
             updateVolume(1, animated: true)
         } else {
