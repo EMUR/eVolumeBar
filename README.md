@@ -37,6 +37,7 @@ view.addSubview(volume)
 
 ### Default with custom icon:
 `code:`
+default volume icon size in 20x20
 ```swift
 var volume = eVolumeBar(withImageName: "space")
 view.addSubview(volume)
@@ -56,4 +57,4 @@ view.addSubview(volume)
 
 
 ## License
-Default is free software, and may be redistributed under the terms specified in the [LICENSE](https://github.com/EMUR/eVolumeBar/blob/master/LICENSE) file.
+eVolumeBar is free software, and may be redistributed under the terms specified in the [LICENSE](https://github.com/EMUR/eVolumeBar/blob/master/LICENSE) file.
