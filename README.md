@@ -1,4 +1,7 @@
-![logo](https://i.imgur.com/4MboCXF.png)
+<p align="center"> 
+<img src="https://i.imgur.com/4MboCXF.png">
+</p>
+
 # eVolumeBar
 eVolumeBar replaces the default iOS volume HUD with a less distractive and more user-friendly view.
 
